@@ -1,0 +1,26 @@
+.menu {
+  display: flex;
+  align-items: center;
+  background-color: $darkLight;
+  padding: 0 4%;
+
+  &__title {
+      font-weight: 400;
+  }
+
+  &__links {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 1rem;
+    list-style: none;
+  }
+
+  &__item {
+    padding: .3rem;
+    &:hover {
+      background-color: $secondary;
+      color: $primary;
+    }
+  }
+}
