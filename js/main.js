@@ -21,8 +21,8 @@ const loadHtml = async function (parentElementId, filePath) {
 
 window.onload = async function () {
 
-  loadHtml('navbar', '/components/navbar.html');
+  loadHtml('navbar', 'components/navbar.html');
 
-  loadHtml('header', '/components/header.html');
+  loadHtml('header', 'components/header.html');
 
 };
